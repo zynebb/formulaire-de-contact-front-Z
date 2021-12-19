@@ -1,0 +1,64 @@
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+form {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+body {
+  background-color: #7359dc;
+}
+.container {
+  background-color: #e5e5e5;
+  width: 500px;
+  height: 696px;
+  margin-top: 110px;
+  margin-bottom: 110px;
+  margin-left: 488px;
+  margin-right: 488px;
+
+  border-radius: 1%;
+}
+input,
+textarea,
+button {
+  padding-left: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: red;
+
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid #c4c4c4;
+
+  height: 40px;
+}
+button {
+  color: white;
+  height: 50px;
+  background-color: #7359dc;
+}
+h1 {
+  font-family: "Roboto ", sans-serif;
+  font-weight: 700;
+
+  font-size: 22px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 65px;
+  padding-top: 60px;
+
+  height: 22px;
+}
+.container div {
+  width: 217px;
+}
+#message {
+  height: 200px;
+}
+form {
+  display: flex;
+}

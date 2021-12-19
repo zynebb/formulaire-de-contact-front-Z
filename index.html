@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire de Contact</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./asset/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Formulaire de contact</h1>
+      <form method="post" id="form" action="http://localhost:3000/form">
+        <input id="last-name" placeholder="Prénom" type="text" /><input
+          id="first-name"
+          placeholder="Nom"
+          type="text"
+        /><input id="mail" placeholder="Email" type="text" /><textarea
+          id="subject"
+          placeholder="Sujet"
+          type="text"
+        ></textarea>
+        <textarea
+          id="message"
+          placeholder="Votre message ici..."
+          type="text"
+        ></textarea>
+        <button>Envoyer le message</button>
+      </form>
+    </div>
+  </body>
+</html>
